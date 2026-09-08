@@ -6,8 +6,8 @@
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'velocity_system');
-define('DB_USER', 'root');
-define('DB_PASS', ''); // Sesuaikan password MySQL Anda
+define('DB_USER', 'adit');
+define('DB_PASS', '123'); // Sesuaikan password MySQL Anda
 
 // Use the deployed application directory instead of a hardcoded local folder.
 $scriptDirectory = str_replace('\\', '/', dirname((string) ($_SERVER['SCRIPT_NAME'] ?? '/')));
