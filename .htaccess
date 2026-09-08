@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^admin/?$ admin.php [L,QSA]
+
+<FilesMatch "\.(sql|log|ini)$">
+    Require all denied
+</FilesMatch>

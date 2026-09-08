@@ -1,0 +1,4 @@
+<div class="mb-3"><label class="form-label">Nama joki</label><input class="form-control" name="nama" maxlength="100" value="<?= $e($joki['nama'] ?? '') ?>" required></div>
+<div class="mb-3"><label class="form-label">WhatsApp</label><input class="form-control" name="whatsapp" maxlength="20" value="<?= $e($joki['whatsapp'] ?? '') ?>" required></div>
+<div class="mb-3"><label class="form-label">Keahlian</label><input class="form-control" name="keahlian" maxlength="50" value="<?= $e($joki['keahlian'] ?? '') ?>" placeholder="Contoh: IT, Akuntansi, Desain" required></div>
+<div><label class="form-label">Rating awal</label><input class="form-control" type="number" name="rating" min="0" max="5" step="0.1" value="<?= $e($joki['rating'] ?? '0') ?>"></div>
